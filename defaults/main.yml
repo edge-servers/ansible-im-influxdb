@@ -11,12 +11,12 @@ influxdb_udp_settings: |
   [[udp]]
   enabled = true
   bind-address = "{{ influxdb_http_ip }}:8089"
-  database = "openwisp2"
+  database = "immunity22"
   # For writing data with the "short" retention policy
   [[udp]]
   enabled = true
   bind-address = "{{ influxdb_http_ip }}:8090"
-  database = "openwisp2"
+  database = "immunity22"
   retention-policy = "short"
 # For backward compatibility
 influxdb_user_password: "{{ inflxudb_admin_password | default(None) }}"

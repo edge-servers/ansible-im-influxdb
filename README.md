@@ -1,6 +1,6 @@
 # ansible-ow-influxdb
 
-[![Build Status](https://github.com/openwisp/ansible-ow-influxdb/workflows/Ansible%20OpenWISP%20InfluxDB%20CI%20Build/badge.svg?branch=master)](https://github.com/openwisp/ansible-openwisp2/actions?query=workflow%3A%22Ansible+OpenWISP+Infl+CI+Build%22)
+[![Build Status](https://github.com/openwisp/ansible-ow-influxdb/workflows/Ansible%20OpenWISP%20InfluxDB%20CI%20Build/badge.svg?branch=master)](https://github.com/openwisp/ansible-immunity22/actions?query=workflow%3A%22Ansible+OpenWISP+Infl+CI+Build%22)
 
 Simple ansible role for installing and configuring influxdb.
 
@@ -9,16 +9,16 @@ Designed to be used in OpenWISP installations.
 How to run tests
 ----------------
 
-If you want to contribute to `ansible-ow-influxdb` you should run tests
+If you want to contribute to `ansible-im-influxdb` you should run tests
 in your development environment to ensure your changes are not breaking anything.
 
 To do that, proceed with the following steps:
 
-**Step 1**: Clone `ansible-ow-influxdb`
+**Step 1**: Clone `ansible-im-influxdb`
 
 Clone repository by:
 
-    git clone https://github.com/<your_fork>/ansible-ow-influxdb.git
+    git clone https://github.com/<your_fork>/ansible-im-influxdb.git
 
 **Step 2**: Install docker
 
@@ -76,11 +76,11 @@ influxdb_udp_settings: |
   [[udp]]
   enabled = true
   bind-address = "{{ influxdb_http_ip }}:8089"
-  database = "openwisp2"
+  database = "immunity22"
   # For writing data with the "short" retention policy
   [[udp]]
   enabled = true
   bind-address = "{{ influxdb_http_ip }}:8090"
-  database = "openwisp2"
+  database = "immunity22"
   retention-policy = "short"
 ```

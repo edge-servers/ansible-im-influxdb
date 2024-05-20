@@ -4,9 +4,9 @@ dependencies: []
 
 galaxy_info:
   role_name: influxdb
-  namespace: openwisp
-  author: openwisp
-  company: OpenWISP
+  namespace: immunity
+  author: immunity
+  company: Immunity
   description: Simple ansible role for installing and configuring influxdb.
   license:
   min_ansible_version: 2.7

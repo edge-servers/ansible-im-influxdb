@@ -16,4 +16,4 @@
         path: /.dockerenv
         state: absent
   roles:
-    - role: openwisp.influxdb
+    - role: immunity.influxdb

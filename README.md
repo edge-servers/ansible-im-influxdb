@@ -1,10 +1,10 @@
 # ansible-ow-influxdb
 
-[![Build Status](https://github.com/openwisp/ansible-ow-influxdb/workflows/Ansible%20OpenWISP%20InfluxDB%20CI%20Build/badge.svg?branch=master)](https://github.com/openwisp/ansible-immunity22/actions?query=workflow%3A%22Ansible+OpenWISP+Infl+CI+Build%22)
+[![Build Status](https://github.com/edge-servers/ansible-ow-influxdb/workflows/Ansible%20Immunity%20InfluxDB%20CI%20Build/badge.svg?branch=master)](https://github.com/edge-servers/ansible-immunity22/actions?query=workflow%3A%22Ansible+Immunity+Infl+CI+Build%22)
 
 Simple ansible role for installing and configuring influxdb.
 
-Designed to be used in OpenWISP installations.
+Designed to be used in Immunity installations.
 
 How to run tests
 ----------------
